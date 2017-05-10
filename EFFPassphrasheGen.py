@@ -24,7 +24,7 @@ def read():
     #dictionary
     d = {}
     #open the file... read only
-    f = open('E:\Documents\Code\eff_large_wordlist.txt', 'r')
+    f = open('path_to_the_word_list', 'r')
     #split each line into key:word and create the dictionary entries
     for line in f:
         x = line.split('\t')
